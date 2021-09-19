@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>zyancn picture </title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+
+<head>
+	<title>Home</title>
+	<!-- custom-theme -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content=""/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //custom-theme -->
+
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Keania+One" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="agile-head text-center">fascinate</h1>
+	<div class="container-w3">
+		<h2>We're Coming soon!</h2>
+		<div class="demo2"></div>
+		<div class="content2-w3-agileits">
+			<p>Don't miss the launch of our new website.
+				<br><a target="_blank" href="http://www.laoyan.me/">4everland空投教程</p>
+			<form action="#" method="post" class="agile-info-form">
+				<input type="email" class="email" placeholder="Enter your email address" required="">
+				<input type="submit" value="sign up">
+				<div class="clear"> </div>
+			</form>
+			<div class="wthree-social-icons">
+				<ul class="w3-links">
+					<li>
+						<a href="#">
+							<span class="fa fa-facebook"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="fa fa-twitter"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="fa fa-linkedin"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="fa fa-google-plus"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="agileits-w3layouts-copyright text-center">
+			<p>Copyright &copy; 2021.Company laoyan All rights reserved.<a target="_blank" href="http://www.laoyan.me/">老言博客</a></p>
+		</div>
+	</div>
+	<!-- Counter required files -->
+	<link rel="stylesheet" href='css/dscountdown.css' type='text/css' media='all' />
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- Counter required files -->
+	<script src="js/dscountdown.min.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$('.demo2').dsCountDown({
+				endDate: new Date("October 7, 2021 23:59:00"),
+				theme: 'black'
+			});
+		});
+	</script>
+	<!-- //Counter required files -->
+</body>
+
 </html>
